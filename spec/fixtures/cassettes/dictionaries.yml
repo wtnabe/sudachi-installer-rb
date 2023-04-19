@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sudachi.s3-ap-northeast-1.amazonaws.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - LyNaLbkkiM/ARlHbVWoe7hwYCaC3j1J66jgbE2rGdFJI1lxSs1MTWo3nFHgo7HThGBIX750OA+k=
+      X-Amz-Request-Id:
+      - AV9GNRAR6BB4Y6HT
+      Date:
+      - Sun, 16 Apr 2023 07:12:29 GMT
+      X-Amz-Bucket-Region:
+      - ap-northeast-1
+      Content-Type:
+      - application/xml
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: !binary |-
+        <%= Base64.strict_encode64(File.binread("spec/support/source/sudachi-dict.xml")) %>
+  recorded_at: Sun, 16 Apr 2023 07:12:28 GMT
+recorded_with: VCR 6.1.0

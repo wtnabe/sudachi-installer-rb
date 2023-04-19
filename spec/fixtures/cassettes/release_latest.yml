@@ -1,0 +1,163 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/WorksApplications/Sudachi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 6.1.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 15 Apr 2023 23:12:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"c9724003ba4bd035f7d864e62a18f1821a3b3ee4fd0e064b018bf9dd22ae5fd8"
+      Last-Modified:
+      - Fri, 14 Apr 2023 04:33:08 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '59'
+      X-Ratelimit-Reset:
+      - '1681603941'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '1'
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '1377'
+      X-Github-Request-Id:
+      - C3B1:074C:4367EE:4916AC:643B2F55
+    body:
+      encoding: ASCII-8BIT
+      string: '<%= File.read("spec/support/source/sudachi-repo.json") %>'
+  recorded_at: Sat, 15 Apr 2023 23:12:21 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/WorksApplications/Sudachi/releases/latest
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 6.1.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 15 Apr 2023 23:12:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      Etag:
+      - W/"bbf0cf32b6d2544c71387bd6894a5bc2cc7f8437c6a38eb2525bc0f70d7a8cc8"
+      Last-Modified:
+      - Thu, 09 Mar 2023 09:51:28 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Github-Api-Version-Selected:
+      - '2022-11-28'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - '0'
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '58'
+      X-Ratelimit-Reset:
+      - '1681603942'
+      X-Ratelimit-Resource:
+      - core
+      X-Ratelimit-Used:
+      - '2'
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '997'
+      X-Github-Request-Id:
+      - C3C8:3206:065A:0767:643B2F56
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url":"https://api.github.com/repos/WorksApplications/Sudachi/releases/95043260","assets_url":"https://api.github.com/repos/WorksApplications/Sudachi/releases/95043260/assets","upload_url":"https://uploads.github.com/repos/WorksApplications/Sudachi/releases/95043260/assets{?name,label}","html_url":"https://github.com/WorksApplications/Sudachi/releases/tag/v0.7.1","id":95043260,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","avatar_url":"https://avatars.githubusercontent.com/in/15368?v=4","gravatar_id":"","url":"https://api.github.com/users/github-actions%5Bbot%5D","html_url":"https://github.com/apps/github-actions","followers_url":"https://api.github.com/users/github-actions%5Bbot%5D/followers","following_url":"https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}","gists_url":"https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}","starred_url":"https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/github-actions%5Bbot%5D/subscriptions","organizations_url":"https://api.github.com/users/github-actions%5Bbot%5D/orgs","repos_url":"https://api.github.com/users/github-actions%5Bbot%5D/repos","events_url":"https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}","received_events_url":"https://api.github.com/users/github-actions%5Bbot%5D/received_events","type":"Bot","site_admin":false},"node_id":"RE_kwDOBgPyKc4Fqj68","tag_name":"v0.7.1","target_commitish":"48dafcd25cc2421211a0721eca89421b80a73232","name":"Sudachi
+        version 0.7.1","draft":false,"prerelease":false,"created_at":"2023-03-09T09:46:22Z","published_at":"2023-03-09T09:51:28Z","assets":[{"url":"https://api.github.com/repos/WorksApplications/Sudachi/releases/assets/98663774","id":98663774,"node_id":"RA_kwDOBgPyKc4F4X1e","name":"sudachi-0.7.1-executable.zip","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","avatar_url":"https://avatars.githubusercontent.com/in/15368?v=4","gravatar_id":"","url":"https://api.github.com/users/github-actions%5Bbot%5D","html_url":"https://github.com/apps/github-actions","followers_url":"https://api.github.com/users/github-actions%5Bbot%5D/followers","following_url":"https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}","gists_url":"https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}","starred_url":"https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/github-actions%5Bbot%5D/subscriptions","organizations_url":"https://api.github.com/users/github-actions%5Bbot%5D/orgs","repos_url":"https://api.github.com/users/github-actions%5Bbot%5D/repos","events_url":"https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}","received_events_url":"https://api.github.com/users/github-actions%5Bbot%5D/received_events","type":"Bot","site_admin":false},"content_type":"application/zip","state":"uploaded","size":362619,"download_count":73,"created_at":"2023-03-09T09:48:32Z","updated_at":"2023-03-09T09:48:32Z","browser_download_url":"https://github.com/WorksApplications/Sudachi/releases/download/v0.7.1/sudachi-0.7.1-executable.zip"}],"tarball_url":"https://api.github.com/repos/WorksApplications/Sudachi/tarball/v0.7.1","zipball_url":"https://api.github.com/repos/WorksApplications/Sudachi/zipball/v0.7.1","body":"This
+        is a maintenance release\r\n\r\n# Highlights\r\n\r\n* Fixed analysis truncation
+        when using analysis with sentence splitting and the input does not contain
+        data which can be treated as splittable sentences\r\n* Fixed O(N^2) performance
+        in sentence splitting when underlying reader does not fill buffer fully at
+        once\r\n* Stop calling into reader with full buffer"}'
+  recorded_at: Sat, 15 Apr 2023 23:12:22 GMT
+recorded_with: VCR 6.1.0
