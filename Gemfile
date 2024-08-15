@@ -7,7 +7,8 @@ gemspec
 
 group :development do
   gem "rake", "~> 13.0"
-  gem "standard", "~> 1.3"
+  gem "standard", "~> 1.37"
+  gem "rubocop", "~> 1.62"
   gem "solargraph", "> 0.38"
   gem "yard", ">= 0.9.30"
 end

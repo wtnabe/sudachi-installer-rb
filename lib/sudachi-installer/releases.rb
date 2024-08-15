@@ -1,14 +1,14 @@
 require "octokit"
 require_relative "../sudachi-installer"
-require_relative "./downloader"
+require_relative "downloader"
 
 module SudachiInstaller
   #
   # GitHub releases
   #
   class Releases
-    class ReleaseNotExist < Error; end # rubocop:disable
-    class AssetsAmbiguous < Error; end # rubocop:disable
+    class ReleaseNotExist < Error; end # rubocop:disable Layout/EmptyLineBetweenDefs
+    class AssetsAmbiguous < Error; end # rubocop:disable Layout/EmptyLineBetweenDefs
 
     def initialize(httpclient: Faraday)
       @octokit = Octokit::Client.new

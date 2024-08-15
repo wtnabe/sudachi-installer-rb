@@ -7,8 +7,8 @@ module SudachiInstaller
   class Resolver
     include SudachiInstaller
 
-    class ExecutableVersionNotDownloaded < Error; end # rubocop:disable
-    class DictionaryNotDownloaded < Error; end # rubocop:disable
+    class ExecutableVersionNotDownloaded < Error; end # rubocop:disable Layout/EmptyLineBetweenDefs
+    class DictionaryNotDownloaded < Error; end # rubocop:disable Layout/EmptyLineBetweenDefs
 
     #
     # @return [string]
