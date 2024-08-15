@@ -1,6 +1,6 @@
 require "octokit"
 require_relative "../sudachi-installer"
-require_relative "./downloader"
+require_relative "downloader"
 
 module SudachiInstaller
   #

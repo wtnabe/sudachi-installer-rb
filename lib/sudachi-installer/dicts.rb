@@ -1,7 +1,7 @@
 require "faraday"
 require "rexml"
 require "xmlhasher"
-require_relative "./downloader"
+require_relative "downloader"
 
 module SudachiInstaller
   #
