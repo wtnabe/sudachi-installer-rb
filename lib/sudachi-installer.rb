@@ -12,6 +12,6 @@ module SudachiInstaller
   setting :dict_dir
   setting :jar_dir
 
-  class Error < StandardError; end # rubocop:disable
+  class Error < StandardError; end
   # Your code goes here...
 end
